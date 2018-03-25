@@ -1,3 +1,6 @@
+html {
+  font-size: 1rem;
+}
 .carousel-cell {
     width: 24%;
     height: 200px;
@@ -5,7 +8,62 @@
     background: #8C8;
     border-radius: 5px;
 }
-
+.bestsell-list{
+    list-style-position: outside;
+    list-style-type: square;
+}
+.bestsell-head{
+    font-size: 20pt;
+}
+.review-row{
+    
+}
+.review-row div.carousel-cell{
+    width: 100%;
+    height: 400px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 0px;
+}
+.review-row .flickity-button {
+  background: transparent;
+}
+.review-row .flickity-button:hover {
+  background: transparent;
+}
+/* big previous & next buttons */
+.review-row .flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+}
+/* icon color */
+.review-row .flickity-button-icon {
+  fill: white;
+}
+/* hide disabled button */
+.review-row .flickity-button:disabled {
+  display: none;
+}
+.review-row .carousel-container{
+    padding:0px 0px 0px 0px;
+}
+.review-row .flickity-prev-next-button.previous {
+  left: 0px;
+}
+.review-row .flickity-prev-next-button.next {
+  right: 0px;
+}
+.review-row .flickity-page-dots {
+  bottom: 22px;
+}
+/* dots are lines */
+.review-row .flickity-page-dots .dot {
+  height: 4px;
+  width: 40px;
+  margin: 0;
+  border-radius: 0;
+  background:white;
+}
 /* cell number */
 .carousel-cell:before {
     display: block;
@@ -87,10 +145,49 @@
     border-style: solid;
     border-color: #2196F3;
 }
+.l-inv-under{
+    border-bottom: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #fff;
+}
+.l-inv-top{
+    border-bottom: 0px;
+    border-top: 5px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #fff;
+}
+.l-inv-left{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 5px;
+    border-style: solid;
+    border-color: #fff;
+}
+.l-inv-right{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 5px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #fff;
+}
 .text-under{
     text-decoration: underline;
     text-decoration-color: #2196F3;
 }
 p{
     padding-left: 5px;
+}
+.hr-main{
+    border: none;
+    height: 5px;
+    /* Set the hr color */
+    color: #2196F3; /* old IE */
+    background-color: #2196F3;
 }
