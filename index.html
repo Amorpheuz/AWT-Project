@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/fontawesome-stars.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/custom.css">
     <script type="text/javascript">
         $(function () {
             $('.main-carousel').flickity({
@@ -22,27 +23,6 @@
             });
         });
     </script>
-    <style>
-        .carousel-cell {
-            width: 25%;
-            height: 200px;
-            margin-right: 10px;
-            background: #8C8;
-            border-radius: 5px;
-            counter-increment: carousel-cell;
-        }
-        
-        /* cell number */
-        .carousel-cell:before {
-            display: block;
-            text-align: center;
-            content: counter(carousel-cell);
-            line-height: 200px;
-            font-size: 80px;
-            color: white;
-        }
-        
-    </style>
     <link rel="icon" href="images/logo.png">
 </head>
 
@@ -53,38 +33,37 @@
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
         aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#">Page 1</a>
+        <span class="navbar-toggler-icon"></span></button>
+        
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Page 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#">Disabled</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                aria-expanded="false">
-                Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Disabled</a>
-        </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-    </form>
-</div>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
 </nav>
 <div class="container-fluid">
     <div class="row">
@@ -116,21 +95,34 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-8">
-            <div class="main-carousel">
-                <div class="carousel-cell">abc</div>
-                <div class="carousel-cell">def</div>
-                <div class="carousel-cell">ghi</div>
-                <div class="carousel-cell">abc</div>
-                <div class="carousel-cell">def</div>
-                <div class="carousel-cell">ghi</div>
-                <div class="carousel-cell">abc</div>
-                <div class="carousel-cell">def</div>
-                <div class="carousel-cell">ghi</div>
-                <div class="carousel-cell">abc</div>
-                <div class="carousel-cell">def</div>
-                <div class="carousel-cell">ghi</div>
+        <div class="col-lg-10">
+            <h1 class="display-4 text-under">
+                Today's Deals
+            </h1>
+            <p>Check out all the deals for today <a href="#">here!</a></p>
+            <div class="carousel-container">
+                <div class="main-carousel" data-flickity='{ "groupCells": true, "wrapAround": true }'>
+                    <div class="carousel-cell">abc</div>
+                    <div class="carousel-cell">def</div>
+                    <div class="carousel-cell">ghi</div>
+                    <div class="carousel-cell">abc</div>
+                    <div class="carousel-cell">def</div>
+                    <div class="carousel-cell">ghi</div>
+                    <div class="carousel-cell">abc</div>
+                    <div class="carousel-cell">def</div>
+                    <div class="carousel-cell">ghi</div>
+                    <div class="carousel-cell">abc</div>
+                    <div class="carousel-cell">def</div>
+                    <div class="carousel-cell">ghi</div>
+                </div>
             </div>
+        </div>
+        <div class="col-lg-2 l-left">
+            <h1 class="display-4 text-under">
+                Featured
+            </h1>
+            <p class="h5"><a href="#">Awesome Cleaner Stickers</a><small class="text-muted"><br>₹99 Only!</small></p>
+            <img src="images/featured.png" alt="Featured Product" class="img-thumbnail image-responsive mx-auto d-block">
         </div>
     </div>
 </div>
