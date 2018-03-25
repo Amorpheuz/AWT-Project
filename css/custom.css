@@ -1,0 +1,96 @@
+.carousel-cell {
+    width: 24%;
+    height: 200px;
+    margin-right: 10px;
+    background: #8C8;
+    border-radius: 5px;
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+/* Custom CSS*/
+.login-box{
+    width: 450px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+@media only screen and (max-width: 576px){
+    .carousel-cell{
+        width: 33%;
+        height: 100px;
+    }
+}
+.flickity-button {
+  background: #333;
+}
+.flickity-button:hover {
+  background: #F90;
+}
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+  left: -40px;
+}
+.flickity-prev-next-button.next {
+  right: -40px;
+}
+.carousel-container{
+    padding:0px 45px 20px 45px;
+    margin:5px;
+}
+.l-under{
+    border-bottom: 5px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #2196F3;
+}
+.l-top{
+    border-bottom: 0px;
+    border-top: 5px;
+    border-right: 0px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #2196F3;
+}
+.l-left{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 5px;
+    border-style: solid;
+    border-color: #2196F3;
+}
+.l-right{
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 5px;
+    border-left: 0px;
+    border-style: solid;
+    border-color: #2196F3;
+}
+.text-under{
+    text-decoration: underline;
+    text-decoration-color: #2196F3;
+}
+p{
+    padding-left: 5px;
+}

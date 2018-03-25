@@ -8966,12 +8966,3 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-
-/* Custom CSS*/
-.login-box{
-  width: 450px; 
-  background-color: rgba(0, 0, 0, 0.5);
-  color: rgb(255, 255, 255);
-  border-radius: 10px;
-}
