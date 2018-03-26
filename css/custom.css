@@ -18,10 +18,9 @@ html {
     background: rgba(218, 218, 218, 0.85);
 }
 .carousel-cell {
-    width: 24%;
+    width: 12%;
     height: 200px;
     margin-right: 10px;
-    background: #8C8;
     border-radius: 5px;
 }
 .bestsell-list{
@@ -103,8 +102,13 @@ html {
 }
 @media only screen and (max-width: 576px){
     .carousel-cell{
-        width: 33%;
+        width: 10%;
         height: 100px;
+    }
+}
+@media only screen and (min-height: 900px){
+    .carousel-cell img{
+        height: 150px !important;
     }
 }
 .flickity-button {
