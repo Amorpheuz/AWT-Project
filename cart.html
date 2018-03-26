@@ -1,43 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
   <head>
+   
     <title>Bootstrap Example</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="jquery.rateyo.css"/>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.barrating.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/fontawesome-stars.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/custom.css"> 
+    <script type="text/javascript">
+        $(function() {
+           $('.example').barrating({
+             theme: 'fontawesome-stars'
+           });
+        });
+     </script>
+    <script type="text/javascript">
+        $(function () {
+            $('.main-carousel').flickity({
+                // options
+                cellAlign: 'left',
+                contain: true
+            });
+        });
+    </script>
+    <link rel="icon" href="images/logo.png">
+
+
     <style>
-      img#cart{
-        width : 100px;
-        height : 120px;
-      }
+        /* external css: flickity.css */
+        
+        * { box-sizing: border-box; }
+        
+        body { font-family: sans-serif; }
+        
+        .carousel {
+            background: #EEE;
+        }
+        
+        .carousel-cell {
+            width: 28%;
+            height: 200px;
+            margin-right: 10px;
+            background: #8C8;
+            border-radius: 5px;
+            counter-increment: carousel-cell;
+        }
+        
+        .carousel-cell.is-selected {
+            background: #ED2;
+        }
+        
+        /* cell number */
+        .carousel-cell:before {
+            display: block;
+            text-align: center;
+            /*content: counter(carousel-cell);*/
+            line-height: 200px;
+            font-size: 80px;
+            color: white;
+        }
+        
     </style>
-  </head>
-  <body>
+    
+</head>
+
+<body>
+  <div class="container-fluid">
     <div class="row">
-  <div class="col-sm-9">
-    <div class = "well">
-      <h3>Shopping Cart</h3><br>
-
-
-    </div>
-    <div>
-      <h3>Recommandations</h3><br>
-      <div class="row">
-        <div class="col-sm-2"><img id="cart" src="images/logo.png"></div>
-        <div class="col-sm-2"><img id="cart" src="images/logo.png"></div>
-        <div class="col-sm-2"><img id="cart" src="images/logo.png"></div>
-        <div class="col-sm-2"><img id="cart" src="images/logo.png"></div>
-        <div class="col-sm-2"><img id="cart" src="images/logo.png"></div>
-        <div class="col-sm-2"><img id="cart" src="images/logo.png"></div>
+      <div class="col-sm-8">
+        <div class = "well">
+          <h3>Shopping Cart</h3><br>
+          <div class="jumbotron">
+            
+          </div>                
+        </div>        
       </div>
+      <div class="col-sm-4">
+        
+      </div>
+      
+      <div>
+        <div class="carousel" data-flickity='{ "groupCells": true }'>
+          <div  class="carousel-cell">
+            
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+          <div class="carousel-cell">
+            <select class="example">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+          </div>
+        </div>
+      </div>      
     </div>
-
   </div>
-  <div class="col-sm-3">
-
-  </div>
-</div>
-  </body>
+</body>
+</html>
