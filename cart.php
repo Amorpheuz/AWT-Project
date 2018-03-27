@@ -98,7 +98,7 @@ session_start();
                   <tr>
                     <th scope="row">1</th>
                     <td>
-                      <img src="images/placeholder256.png" alt="img">
+                      <img src="images/apple.png" alt="img">
                     </td>
                     <td>
                       <h4>
@@ -119,7 +119,7 @@ session_start();
                   <tr>
                     <th scope="row">2</th>
                     <td>
-                      <img src="images/placeholder256.png" alt="img">
+                      <img src="images/googleHome.png" alt="img">
                     </td>
                     <td>
                       <h4><a href="#">Product 2</a>
@@ -141,7 +141,7 @@ session_start();
                   <tr>
                     <th scope="row">3</th>
                     <td>
-                      <img src="images/placeholder256.png" alt="img">
+                      <img src="images/headphones.png" alt="img">
                     </td>
                     <td>
                       <h4>
@@ -175,7 +175,7 @@ session_start();
           <div class="row">
             <div class="col-lg-12">
               <h1 class="display-4 text-under">
-                <img src="images/cart-simple.png" alt="cart" style="padding-right: 15px;">Saved for Later
+                Saved for Later
               </h1>
               <p class="lead">Stuff that might get chosen by you
               </p>
@@ -191,7 +191,7 @@ session_start();
                   <tr>
                     <th scope="row">1</th>
                     <td>
-                      <img src="images/placeholder256.png" alt="img">
+                      <img src="images/lamp2.png" alt="img" class="mw-100">
                     </td>
                     <td>
                       <h4>
@@ -213,7 +213,7 @@ session_start();
                   <tr>
                     <th scope="row">2</th>
                     <td>
-                      <img src="images/placeholder256.png" alt="img">
+                      <img src="images/xbox.png" alt="img">
                     </td>
                     <td>
                       <h4>
@@ -235,7 +235,7 @@ session_start();
                   <tr>
                     <th scope="row">3</th>
                     <td>
-                      <img src="images/placeholder256.png" alt="img">
+                      <img src="images/xboxcontroller.png" alt="img">
                     </td>
                     <td>
                       <h4>
