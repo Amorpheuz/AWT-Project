@@ -41,7 +41,7 @@ session_start();
                         if($_SESSION["name"] != "")
                         {
                             $name=$_SESSION["name"];
-                            echo "<h6 style='color:#2196f3;margin-right:5px;padding-top:10px;' class='font-weight-normal'>Welcome ".$name."</h6>"." <a class='btn btn-outline-primary' href='logout.php'>Sign Out</a>";
+                            echo "<a href='dashboard.php'><h6 style='color:#2196f3;margin-right:5px;padding-top:10px;' class='font-weight-normal'>Welcome ".$name."</h6></a>"." <a class='btn btn-outline-primary' href='logout.php'>Sign Out</a>";
                         }
                         else
                         {

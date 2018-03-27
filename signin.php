@@ -24,8 +24,10 @@ $row = mysqli_fetch_array($result);
 
 if($row["email"]==$email && $row["password"]==$pass)
 {
+    $_SESSION["id"]=$email;
     $_SESSION["ERROR"]="";
     $_SESSION["name"] = $row["name"];
+    
     header("location:index.php");
 }
     else

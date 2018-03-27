@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,6 +16,7 @@
     <link rel="stylesheet" href="css/fontawesome-stars.css">
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/custom.css">
     <script type="text/javascript" src="js/custom.js"></script>
     <link rel="icon" href="images/logo.png">
@@ -37,7 +41,24 @@
             </nav>
             <nav class="my-2 my-md-0 mr-md-3">
             </nav>
-            <a class="btn btn-outline-primary" href="#">Sign In</a>
+            <?php
+            if(isset($_SESSION["name"]))
+            {
+                if($_SESSION["name"] != "")
+                {
+                    $name=$_SESSION["name"];
+                    echo "<h6 style='color:#2196f3;margin-right:5px;padding-top:10px;' class='font-weight-normal'>Welcome ".$name."</h6>"." <a class='btn btn-outline-primary' href='logout.php'>Sign Out</a>";
+                }
+                else
+                {
+                    echo"<a class='btn btn-outline-primary' href='Login.php' style='margin-right:5px;'>Sign In/ Sign Up</a>";
+                }
+            }
+            else
+            {
+                echo"<a class='btn btn-outline-primary' href='Login.php' style='margin-right:5px;'>Sign In/Sign up</a>";
+            }
+            ?>
         </div>
         <div class="d-flex justify-content-center">
             <hr style="margin:0px; background-color: #2196f3; width: 95%">
@@ -53,8 +74,17 @@
             <nav class="my-2 my-md-0 mr-md-3">
             </nav>
             <form class="form-inline">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                <input style="border-radius:0.25rem 0rem 0rem 0.25rem" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary" style="border-radius:0rem 0.25rem 0.25rem 0rem" type="submit"><i class='fas fa-search'></i></button>
+                <?php
+                    if(isset($_SESSION["name"]) && isset($_SESSION["mail"]))
+                    {
+                        if($_SESSION["name"]!="")
+                        {
+                            echo "<a href='cart.php' style='margin-left:5px;' class='btn btn-outline-primary my-2 my-sm-0'><i class='fas fa-shopping-cart'></i> My Cart</a>";
+                        }
+                    }
+                ?>
             </form>
         </div>
     </div>
@@ -77,11 +107,12 @@
                     <tbody>
                         <tr>
                             <th scope="row">Name</th>
-                            <td>User</td>
+                           <?php echo "<td>".$_SESSION["name"]."</td>" ?>
                         </tr>
                         <tr>
                             <th scope="row">E - Mail</th>
-                            <td>User@emailer.com</td>
+                            <?php $m=$_SESSION["id"];
+                            echo "<td>".$m."</td>" ?>
                         </tr>
                         <tr>
                             <th scope="row">Change Password</th>
@@ -123,7 +154,7 @@
                         <tr>
                             <th scope="row">1</th>
                             <td>
-                                <img src="images/placeholder256.png" alt="img">
+                                <img src="images/apple.png" alt="img">
                             </td>
                             <td>
                                 <h4>
@@ -145,7 +176,7 @@
                         <tr>
                             <th scope="row">2</th>
                             <td>
-                                <img src="images/placeholder256.png" alt="img">
+                                <img src="images/googleHome.png" alt="img">
                             </td>
                             <td>
                                 <h4>
@@ -167,7 +198,7 @@
                         <tr>
                             <th scope="row">3</th>
                             <td>
-                                <img src="images/placeholder256.png" alt="img">
+                                <img src="images/headphones.png" alt="img">
                             </td>
                             <td>
                                 <h4>
