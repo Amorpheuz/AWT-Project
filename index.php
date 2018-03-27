@@ -5,7 +5,7 @@
 <html lang="en">
 
 <head>
-    <title>Bootstrap Example</title>
+    <title>Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.css">
@@ -70,7 +70,7 @@
                     {
                         if($_SESSION["name"]!="")
                         {
-                            echo "<button style='margin-left:5px;' class='btn btn-outline-primary my-2 my-sm-0'><i class='fas fa-shopping-cart'></i> My Cart </button>";
+                            echo "<a href='cart.php' style='margin-left:5px;' class='btn btn-outline-primary my-2 my-sm-0'><i class='fas fa-shopping-cart'></i> My Cart</a>";
                         }
                     }
                 ?>
@@ -89,13 +89,13 @@
                     </ul>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <a href="#"><img src="images/car1.jpg" alt="Los Angeles" width="100%"></a>
+                            <a href="ProductPage.php"><img src="images/car1.jpg" alt="Los Angeles" width="100%"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="#"><img src="images/car2.jpg" alt="Chicago" width="100%"></a>
+                            <a href="ProductPage.php"><img src="images/car2.jpg" alt="Chicago" width="100%"></a>
                         </div>
                         <div class="carousel-item">
-                            <a href="#"><img src="images/car3.jpg" alt="New York" width="100%"></a>
+                            <a href="ProductPage.php"><img src="images/car3.jpg" alt="New York" width="100%"></a>
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#demo" data-slide="prev">
@@ -118,7 +118,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random1.jpg" alt="Product 1" style="height:101px"></img></a>
+                                    <a href="ProductPage.php"><img src="images/random/random1.jpg" alt="Product 1" style="height:101px"></img></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -145,7 +145,7 @@
                         <div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random2.jpg" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -173,7 +173,7 @@
                         </div><div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random3.jpg" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -201,7 +201,7 @@
                         </div><div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random4.jpg" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -229,7 +229,7 @@
                         </div><div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random5.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -257,7 +257,7 @@
                         </div><div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random6.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -285,7 +285,7 @@
                         </div><div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random7.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -313,7 +313,7 @@
                         </div><div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random8.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -341,7 +341,7 @@
                         </div><div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random9.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -369,7 +369,7 @@
                         </div><div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random10.jpg" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -397,7 +397,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random11.jpg" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random11.jpg" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -424,7 +424,7 @@
                         <div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random12.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -452,7 +452,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random13.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random13.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -479,7 +479,7 @@
                         <div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random14.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -507,7 +507,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random15.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random15.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -534,7 +534,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random16.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random16.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -561,7 +561,7 @@
                         <div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random17.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -589,7 +589,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random18.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random18.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -616,7 +616,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random19.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random19.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -643,7 +643,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random20.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random20.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -670,7 +670,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random21.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random21.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -697,7 +697,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random22.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random22.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -724,7 +724,7 @@
                         <div class="carousel-cell text-center">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#">
+                                    <a href="ProductPage.php">
                                         <img src="images/random/random23.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
@@ -752,7 +752,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random24.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random24.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -778,7 +778,7 @@
                         </div><div class="carousel-cell text-center">      
                                                 <div class="row">
                                                     <div class="col-lg-12">
-                                                        <a href="#"><img src="images/random/random25.png" alt="Product 1" style="height:101px"></a>
+                                                        <a href="ProductPage.php"><img src="images/random/random25.png" alt="Product 1" style="height:101px"></a>
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -805,7 +805,7 @@
                                             <div class="carousel-cell text-center">      
                                                 <div class="row">
                                                     <div class="col-lg-12">
-                                                        <a href="#"><img src="images/random/random26.png" alt="Product 1" style="height:101px"></a>
+                                                        <a href="ProductPage.php"><img src="images/random/random26.png" alt="Product 1" style="height:101px"></a>
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -833,7 +833,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random27.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random27.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -860,7 +860,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/random/random28.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="ProductPage.php"><img src="images/random/random28.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -892,7 +892,7 @@
                 <h1 class="display-4 text-under">
                     Featured
                 </h1>
-                <p class="h5"><a href="#">Awesome Cleaner Stickers</a><small class="text-muted"><br>₹99 Only!</small></p>
+                <p class="h5"><a href="ProductPage.php">Awesome Cleaner Stickers</a><small class="text-muted"><br>₹99 Only!</small></p>
                 <img src="images/featured.png" alt="Featured Product" class="mw-100 mx-auto d-block">
             </div>
         </div>
@@ -910,13 +910,13 @@
                         <h1 class="display-4 text-under">
                             Inspired by you
                         </h1>
-                        <p class="lead">Because everyone's needs are different <a href="#" style="padding-left:25px;"> See All</a></p>
+                        <p class="lead">Because everyone's needs are different <a href="ProductPage.php" style="padding-left:25px;"> See All</a></p>
                         <div class="carousel-container">
                             <div class="main-carousel" data-flickity='{ "groupCells": true, "wrapAround": true }'>
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random27.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -945,7 +945,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random25.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -974,7 +974,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random23.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1003,7 +1003,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random21.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1032,7 +1032,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random19.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1061,7 +1061,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random17.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1090,7 +1090,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random13.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1119,7 +1119,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random30.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1148,7 +1148,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random30.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1177,7 +1177,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random20.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1206,7 +1206,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img "images/random/random13.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1235,7 +1235,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random8.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1264,7 +1264,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random6.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1347,13 +1347,13 @@
                         <h1 class="display-4 text-under">
                             Summer Bonanza
                         </h1>
-                        <p class="lead">Summer's here and so are the best deals on your favourite products! <a href="#" style="padding-left:25px;"> See All</a></p>
+                        <p class="lead">Summer's here and so are the best deals on your favourite products! <a href="ProductPage.php" style="padding-left:25px;"> See All</a></p>
                         <div class="carousel-container">
                             <div class="main-carousel" data-flickity='{ "groupCells": true, "wrapAround": true }'>
                                 <div class="carousel-cell text-center">      
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#"><img src="images/random/random5.png" alt="Product 1" style="height:101px"></a>
+                                            <a href="ProductPage.php"><img src="images/random/random5.png" alt="Product 1" style="height:101px"></a>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -1380,7 +1380,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random6.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1408,7 +1408,7 @@
                                 </div><div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random30.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1436,7 +1436,7 @@
                                 </div><div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random29.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1464,7 +1464,7 @@
                                 </div><div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random27.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1492,7 +1492,7 @@
                                 </div><div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random25.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1520,7 +1520,7 @@
                                 </div><div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random12.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1548,7 +1548,7 @@
                                 </div><div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random7.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1576,7 +1576,7 @@
                                 </div><div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random8.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1604,7 +1604,7 @@
                                 </div><div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random9.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1632,7 +1632,7 @@
                                 </div><div class="carousel-cell text-center">      
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#"><img src="images/random/random13.png" alt="Product 1" style="height:101px"></a>
+                                            <a href="ProductPage.php"><img src="images/random/random13.png" alt="Product 1" style="height:101px"></a>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -1659,7 +1659,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random15.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1687,7 +1687,7 @@
                                 </div><div class="carousel-cell text-center">      
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#"><img src="images/random/random16.png" alt="Product 1" style="height:101px"></a>
+                                            <a href="ProductPage.php"><img src="images/random/random16.png" alt="Product 1" style="height:101px"></a>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -1714,7 +1714,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random17.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1743,7 +1743,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random18.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1772,7 +1772,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random19.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1801,7 +1801,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random20.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1830,7 +1830,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random21.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1859,7 +1859,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random22.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1888,7 +1888,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random22.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1917,7 +1917,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random23.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1946,7 +1946,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random24.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -1975,7 +1975,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random25.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2004,7 +2004,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random26.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2033,7 +2033,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random27.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2062,7 +2062,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/random/random28.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2146,14 +2146,14 @@
                             Books Worth Your Time
                         </h1>
                         <p class="lead">Spend your afternoon enjoying these masterpieces from the best authors out there
-                            <a href="#" style="padding-left:25px;"> See All</a>
+                            <a href="ProductPage.php" style="padding-left:25px;"> See All</a>
                         </p>
                         <div class="carousel-container">
                             <div class="main-carousel" data-flickity='{ "groupCells": true, "wrapAround": true }'>
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book1.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2182,7 +2182,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book2.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2211,7 +2211,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book3.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2240,7 +2240,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book4.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2269,7 +2269,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book5.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2298,7 +2298,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book6.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2327,7 +2327,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book7.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2356,7 +2356,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book8.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2385,7 +2385,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book9.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2414,7 +2414,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book10.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2443,7 +2443,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book11.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2472,7 +2472,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book12.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
@@ -2501,7 +2501,7 @@
                                 <div class="carousel-cell text-center">
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#">
+                                            <a href="ProductPage.php">
                                                 <img src="images/Books/book14.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
