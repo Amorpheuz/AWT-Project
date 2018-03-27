@@ -40,12 +40,12 @@
                 }
                 else
                 {
-                    echo"<a class='btn btn-outline-primary' href='Login.php' style='margin-right:5px;'>Sign In</a> <a class='btn btn-outline-primary' href='Login.php'>Sign Up</a>";
+                    echo"<a class='btn btn-outline-primary' href='Login.php' style='margin-right:5px;'>Sign In/ Sign Up</a>";
                 }
             }
             else
             {
-                echo"<a class='btn btn-outline-primary' href='Login.php' style='margin-right:5px;'>Sign In</a> <a class='btn btn-outline-primary' href='Login.php'>Sign Up</a>";
+                echo"<a class='btn btn-outline-primary' href='Login.php' style='margin-right:5px;'>Sign In/Sign up</a>";
             }
             ?>
         </div>
@@ -118,7 +118,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random1.jpg" alt="Product 1" style="height:101px"></img></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -146,7 +146,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random2.jpg" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -174,7 +174,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random3.jpg" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -202,7 +202,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random4.jpg" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -230,7 +230,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random5.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -258,7 +258,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random6.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -286,7 +286,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random7.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -314,7 +314,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random8.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -342,7 +342,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random9.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -370,7 +370,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random10.jpg" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -397,7 +397,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random11.jpg" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -425,7 +425,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random12.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -452,7 +452,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random13.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -480,7 +480,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random14.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -507,7 +507,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random15.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -534,7 +534,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random16.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -562,7 +562,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random17.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -589,7 +589,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random18.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -616,7 +616,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random19.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -643,7 +643,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random20.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -670,7 +670,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random21.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -697,7 +697,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random22.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -725,7 +725,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="#">
-                                        <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random23.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>
@@ -752,7 +752,7 @@
                         </div><div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random24.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -770,10 +770,15 @@
                                 <div class="col-lg-12">
                                     <h5>
                                         <small class="text-muted">
-                                            ₹1030<div class="carousel-cell text-center">      
+                                            ₹1030
+                                        </small>
+                                    </h5>
+                                </div>
+                            </div>
+                        </div><div class="carousel-cell text-center">      
                                                 <div class="row">
                                                     <div class="col-lg-12">
-                                                        <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                                        <a href="#"><img src="images/random/random25.png" alt="Product 1" style="height:101px"></a>
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -800,7 +805,7 @@
                                             <div class="carousel-cell text-center">      
                                                 <div class="row">
                                                     <div class="col-lg-12">
-                                                        <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                                        <a href="#"><img src="images/random/random26.png" alt="Product 1" style="height:101px"></a>
                                                     </div>
                                                 </div>
                                                 <div class="row">
@@ -825,15 +830,10 @@
                                                 </div>
                                             </div>
                                             
-                                        </small>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random27.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -860,7 +860,7 @@
                         <div class="carousel-cell text-center">      
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                    <a href="#"><img src="images/random/random28.png" alt="Product 1" style="height:101px"></a>
                                 </div>
                             </div>
                             <div class="row">
@@ -917,7 +917,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random27.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -946,7 +946,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random25.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -975,7 +975,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random23.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1004,7 +1004,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random21.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1033,7 +1033,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random19.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1062,7 +1062,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random17.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1091,7 +1091,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random13.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1120,7 +1120,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random30.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1149,7 +1149,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random30.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1178,7 +1178,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random20.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1207,7 +1207,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img "images/random/random13.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1236,7 +1236,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random8.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1265,7 +1265,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random6.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1314,7 +1314,7 @@
                                 </table>
                             </div>
                             <div class="col-sm-4 d-flex justify-content-center">
-                                <img src="images/placeholder256.png" alt="mobile group" class="mw-100">
+                                <img src="images/mobile_phones_grp.png" alt="mobile group" class="mw-100" style="height:200px;">
                             </div>
                         </div>
                     </div>
@@ -1330,7 +1330,7 @@
                                 </table>
                             </div>
                             <div class="col-sm-4 d-flex justify-content-center">
-                                <img src="images/placeholder256.png" alt="mobile group" class="mw-100">
+                                <img src="images/headphones.png" alt="mobile group" class="mw-100" style="height:200px;">
                             </div>
                         </div>
                     </div>
@@ -1353,7 +1353,7 @@
                                 <div class="carousel-cell text-center">      
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                            <a href="#"><img src="images/random/random5.png" alt="Product 1" style="height:101px"></a>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -1381,7 +1381,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random6.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1409,7 +1409,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random30.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1437,7 +1437,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random29.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1465,7 +1465,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random27.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1493,7 +1493,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random25.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1521,7 +1521,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random12.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1549,7 +1549,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random7.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1577,7 +1577,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random8.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1605,7 +1605,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random9.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1632,7 +1632,7 @@
                                 </div><div class="carousel-cell text-center">      
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                            <a href="#"><img src="images/random/random13.png" alt="Product 1" style="height:101px"></a>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -1660,7 +1660,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random15.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1687,7 +1687,7 @@
                                 </div><div class="carousel-cell text-center">      
                                     <div class="row">
                                         <div class="col-lg-12">
-                                            <a href="#"><img src="images/placeholder256.png" alt="Product 1" style="height:101px"></a>
+                                            <a href="#"><img src="images/random/random16.png" alt="Product 1" style="height:101px"></a>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -1715,7 +1715,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random17.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1744,7 +1744,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random18.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1773,7 +1773,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random19.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1802,7 +1802,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random20.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1831,7 +1831,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random21.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1860,7 +1860,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random22.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1889,7 +1889,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random22.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1918,7 +1918,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random23.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1947,7 +1947,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random24.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -1976,7 +1976,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random25.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2005,7 +2005,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random26.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2034,7 +2034,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random27.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2063,7 +2063,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random28.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2112,7 +2112,7 @@
                                 </table>
                             </div>
                             <div class="col-sm-4 d-flex justify-content-center">
-                                <img src="images/placeholder256.png" alt="mobile group" class="mw-100">
+                                <img src="images/googleHome.png" alt="Smart Devices" class="mw-100" style="height:200px;">
                             </div>
                         </div>
                     </div>
@@ -2128,7 +2128,7 @@
                                 </table>
                             </div>
                             <div class="col-sm-4 d-flex justify-content-center">
-                                <img src="images/placeholder256.png" alt="mobile group" class="mw-100">
+                                <img src="images/apple.png" alt="mobile group" class="mw-100" style="height:200px;">
                             </div>
                         </div>
                     </div>
@@ -2154,7 +2154,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book1.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2183,7 +2183,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book2.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2212,7 +2212,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book3.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2241,7 +2241,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book4.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2270,7 +2270,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book5.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2299,7 +2299,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book6.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2328,7 +2328,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book7.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2357,7 +2357,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book8.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2386,7 +2386,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book9.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2415,7 +2415,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book10.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2444,7 +2444,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book11.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2473,7 +2473,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book12.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2502,7 +2502,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="#">
-                                                <img src="images/placeholder256.png" alt="Product 1" style="height:101px">
+                                                <img src="images/Books/book14.jpg" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2561,7 +2561,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <img src="images/placeholder256.png" alt="" class="mw-100">
+                                        <img src="images/xbox.png" alt="" class="mw-100">
                                     </div>
                                 </div>
                             </li>
@@ -2587,7 +2587,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <img src="images/placeholder256.png" alt="" class="mw-100">
+                                        <img src="images/xboxcontroller.png" alt="" class="mw-100">
                                     </div>
                                 </div>
                             </li>
@@ -2613,7 +2613,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <img src="images/placeholder256.png" alt="" class="mw-100">
+                                        <img src="images/xboxonecat.png" alt="" class="mw-100">
                                     </div>
                                 </div>
                             </li>
@@ -2644,7 +2644,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <img src="images/placeholder256.png" alt="" class="mw-100">
+                                        <img src="images/lamp.png" alt="" class="mw-100">
                                     </div>
                                 </div>
                             </li>
@@ -2670,7 +2670,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-lg-12">
-                                        <img src="images/placeholder256.png" alt="" class="mw-100">
+                                        <img src="images/lamp2.png" alt="" class="mw-100">
                                     </div>
                                 </div>
                             </li>
