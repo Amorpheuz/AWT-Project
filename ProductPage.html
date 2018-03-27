@@ -16,12 +16,65 @@
         <link rel="stylesheet" href="css/fontawesome-stars.css">
         <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
         <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
-        <link rel="stylesheet" href="css/custom.css">
-        <script src="js/custom.js"></script>
         <link rel="icon" href="images/logo.png">
+        <script src="js/custom.js"></script>
         <style>
             .container-fluid {
                 background-color: white;
+            }
+            .imgcarousel {
+                background: #EEE;
+            }
+            
+            .imgcarousel-cell {
+                margin-right: 20px;
+                overflow: hidden;
+            }
+            
+            .imgcarousel-cell img {
+                display: block;
+                height: 200px;
+            }
+            
+            @media screen and ( min-width: 768px ) {
+                .imgcarousel-cell img {
+                    height: 400px;
+                }
+            }
+            
+            #topBtn {
+                display: none; 
+                position: fixed; 
+                bottom: 20px; 
+                right: 30px; 
+                z-index: 99; 
+                border: none; 
+                outline: none; 
+                background-color: rgba(66, 66, 66, 0.85);
+                color: white; 
+                cursor: pointer;
+                padding: 15px; 
+                border-radius: 10px;
+                font-size: 18px; 
+            }
+            
+            #topBtn:hover {
+                background-color: rgba(66, 66, 66, 1);
+            }
+            .breadcrumb{
+                background-color: white;
+            }
+            .text-under{
+                text-decoration: underline;
+                text-decoration-color: #2196F3;
+            }
+            .l-left{
+                border-bottom: 0px;
+                border-top: 0px;
+                border-right: 0px;
+                border-left: 5px;
+                border-style: solid;
+                border-color: #2196F3;
             }
         </style>
     </head>
@@ -59,7 +112,112 @@
             <button type="button" class="btn btn-dark" id="topBtn">
                 <img src="images/upArr.png" alt="upArrow">
             </button>
-            <footer class="page-footer font-small unique-color-dark pt-0 text-white" style="background-color:#1A237E;">
+            <div class="row">
+                <div class="col-lg-12">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item">
+                                <a href="#">Electronics</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Personal Electronics</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Mobiles</a>
+                            </li>
+                            <li class="breadcrumb-item">
+                                <a href="#">Apple</a>
+                            </li>
+                            <li class="breadcrumb-item active" aria-current="page">
+                                iPhone X 64 GB
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4" style="padding-bottom:30px;">
+                    <div class="imgcarousel">
+                        <div class="imgcarousel-cell">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/orange-tree.jpg" alt="orange tree" />
+                        </div>
+                        <div class="imgcarousel-cell">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/one-world-trade.jpg" alt="One World Trade" />
+                        </div>
+                        <div class="imgcarousel-cell">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/drizzle.jpg" alt="drizzle" />
+                        </div>
+                        <div class="imgcarousel-cell">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/cat-nose.jpg" alt="cat nose" />
+                        </div>
+                        <div class="imgcarousel-cell">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/contrail.jpg" alt="contrail" />
+                        </div>
+                        <div class="imgcarousel-cell">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/golden-hour.jpg" alt="golden hour" />
+                        </div>
+                        <div class="imgcarousel-cell">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/82/flight-formation.jpg" alt="flight formation" />
+                        </div>
+                    </div>                   
+                </div>
+                <div class="col-lg-8">
+                    <div style="margin-left:10px;" class="l-left">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <h1 class="display-4 text-under">iPhone X 64GB
+                                </h1>
+                                <h3  style="padding-left:10px;">Price:
+                                    <small class="text-muted">₹101337 -
+                                        <strong> Free Delivery </strong>
+                                        <a href="#">Details</a>
+                                    </small>
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12" style="padding-left:10px;">
+                                <h4 class="text-success font-weight-normal">Only 5 left in Stock</h4>
+                                <strong>EMI</strong> Eligible
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12"  style="padding-left:10px;">
+                                <p class="lead">
+                                    Sold by <a href="#">Shyam Tech</a>  (4.7 out of 5 | 84 ratings) and Garunteed by BuyM8. Gift-wrap available.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12"  style="padding-left:10px;">
+                                <p class="text-justify">
+                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi laudantium expedita voluptas labore, repellat ratione
+                                    corporis nulla aut? Incidunt eius cupiditate eveniet laudantium dignissimos culpa quis, quibusdam ipsa aut!
+                                </p>    
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, error.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, error.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, error.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, error.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, error.</li>
+                                    </ul>
+                                <p class="text-justify">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, consectetur reprehenderit eos aut provident at beatae ex
+                                    iusto soluta perspiciatis quasi placeat qui laudantium consequatur porro facilis? Labore assumenda inventore officiis? Rerum
+                                    quasi mollitia ab nesciunt pariatur beatae? Obcaecati dolore in est commodi veritatis voluptatum, a debitis assumenda natus.
+                                    A, facilis asperiores beatae nulla enim molestiae ex ullam laboriosam ratione doloribus quaerat, recusandae dolorum, hic
+                                    consectetur rerum consequatur magnam itaque excepturi doloremque natus. Aut enim tenetur temporibus totam error amet quidem
+                                    culpa, hic id minus incidunt iusto doloremque dolorem quam asperiores porro modi aliquam ex dolorum delectus aliquid minima
+                                    impedit?
+                                </p>
+                                <button type="button" class="btn btn-outline-info">Limited Quantity</button>
+                                <button type="button" class="btn btn-outline-danger">No Refund Available</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="page-footer font-small unique-color-dark pt-0 text-white" style="background-color:#1A237E; margin-top:25px;">
                 
                 <div style="background-color: #1A237E;">
                     <div class="container">
