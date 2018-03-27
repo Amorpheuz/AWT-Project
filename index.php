@@ -1212,7 +1212,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="ProductPage.php">
-                                                <img src="images/random/random13.png" alt="Product 1" style="height:101px">
+                                                <img "images/random/random13.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>
@@ -2719,7 +2719,7 @@
                                 <tr>
                                     <td class="align-middle">
                                         <blockquote class="blockquote text-center">
-                                            <img src="images/fb.png" class="mw-100" alt="Facebook" style="height:60px;">
+                                            <img src="images/fb.png" class="mw-100" alt="Facebook" style="height:50px;">
                                             <p class="mb-0">Literally the best of the best online vendors in India</p>
                                             <footer class="blockquote-footer">Rahim Rehman,
                                                 <cite title="Source Title"><a href="https://www.facebook.com/TimesofIndia/">Times of India</a></cite>
