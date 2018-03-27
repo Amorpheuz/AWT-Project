@@ -30,58 +30,29 @@
         });
         $(document).ready(function(){
             $(document).scroll(function(){
-            var height = $(window).scrollTop();
-            if (height>100) {
-                $('#mainnav').addClass("fixed-top");
-            }
-            if(height<100){
-                $('#mainnav').removeClass("fixed-top");
-            }
-        });
+                var height = $(window).scrollTop();
+                if (height>100) {
+                    $('#mainnav').addClass("fixed-top");
+                }
+                if(height<100){
+                    $('#mainnav').removeClass("fixed-top");
+                }
+                if(height>400){
+                    $('#topBtn').css("display","block");
+                }
+                if(height<400){
+                    $('#topBtn').css("display","none");
+                }
+            });
+            $("#topBtn").click(function(){
+                $(document).scrollTop(0);
+            });
         });
     </script>
     <link rel="icon" href="images/logo.png">
 </head>
 
 <body class="parallax">
-    <!--<nav id="top" class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand mb-0 h1" href="#">
-            <img src="images/logo.png" height="30" class="d-inline-block align-top" alt=""> BuyM8
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span></button>
-        
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Page 1</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Disabled</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
-            </form>
-        </div>
-    </nav>-->
     <div class="bg-white">
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white">
             <nav class="my-0 mr-md-auto">
@@ -110,6 +81,7 @@
             </form>
         </div>
     </div>
+    <button type="button" class="btn btn-dark" id="topBtn"><img src="images/upArr.png" alt="upArrow"></button>
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12" style="margin-bottom: 15px;">
@@ -2777,7 +2749,7 @@
     </div>
     <div class="row" style="margin-top: 10px;">
         <div class="col-lg-12 d-flex justify-content-center" style="background-color: #37474F; padding: 20px;">
-            <a href="index.html#top" style="color: white;"> Back to Top</a>
+            <a href="index.php#top" style="color: white;"> Back to Top</a>
         </div>
     </div>
     <footer class="page-footer font-small unique-color-dark pt-0 text-white" style="background-color:#1A237E;">
