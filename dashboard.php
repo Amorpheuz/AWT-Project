@@ -62,7 +62,9 @@
     <div class="container-fluid" style="margin-top:25px;">
         <div class="row">
             <div class="col-lg-3">
-                <img src="images/personBig.png" alt="User" class="mw-100">
+                <div class="text-center">
+                    <img src="images/personBig.png" alt="User">
+                </div>
             </div>
             <div class="col-lg-9 l-left">
                 <h1 class="display-1" style="padding-left: 25px;">
