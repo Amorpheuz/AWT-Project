@@ -24,9 +24,13 @@ $row = mysqli_fetch_array($result);
 
 if($row["email"]==$email && $row["password"]==$pass)
 {
+    $_SESSION["ERROR"]="";
     $_SESSION["name"] = $row["name"];
     header("location:index.php");
 }
     else
-    echo"Sorry, your credentials are not valid, Please try again.";
+    {
+        $_SESSION["ERROR"]="WrongPass";
+        header("location:Login.php");
+    }
 ?>

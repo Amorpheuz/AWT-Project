@@ -6,7 +6,8 @@
     $cpass=$_POST["cpass"];
     if($pass != $cpass)
     {
-        $_SESSION["error"]="notMatch"
+        $_SESSION["ERROR"]="notMatch";
+        header("location:Login.php");
     }
     else
     {
@@ -19,11 +20,13 @@
         $sql = "INSERT INTO login VALUES ('$email','$name','$pass')";
         if(mysqli_query($conn,$sql))
         {
-            echo "Record inserted";
+            $_SESSION["ERROR"]="none";
+            header("location:Login.php");
         }
         else
         {
-            echo mysqli_error($conn);
+            $_SESSION["ERROR"]="exists";
+            header("location:Login.php");
         }
     }
 ?>
