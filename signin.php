@@ -15,14 +15,14 @@ if(! $con)
 // Select the database to use
 mysqli_select_db($con,'awt');
 
-$result = mysqli_query($con,"SELECT * FROM login WHERE email = '$email';");
+$result = mysqli_query($con,"SELECT * FROM login WHERE email = '$email' AND password= sha1('$pass');");
 if (!$result) {
     printf("Error: %s\n", mysqli_error($con));
     exit();
 }
 $row = mysqli_fetch_array($result);
 
-if($row["email"]==$email && $row["password"]==$pass)
+if($row["email"]==$email)
 {
     $_SESSION["id"]=$email;
     $_SESSION["ERROR"]="";

@@ -62,13 +62,13 @@ session_start();
             
             <div class="checkbox mb-3">
                 <label>
-                    <input type="checkbox" value="remember-me"> Remember me
+                    <input type="checkbox" value="remember-me"> Remember me</input>
                 </label>
             </div>
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             
         </form>
-        <button class="btn btn-link" data-toggle="modal" data-target="#myModal">Create Account</button>
+        <div class="text-center"><button class="btn btn-link" style ="color:white;" data-toggle="modal" data-target="#myModal">Create Account</button></div>
         <p class="mt-5 mb-3 text-center">©BuyM8 2017-2018</p>
     </div>
     

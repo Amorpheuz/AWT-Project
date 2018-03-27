@@ -1212,7 +1212,7 @@
                                     <div class="row">
                                         <div class="col-lg-12">
                                             <a href="ProductPage.php">
-                                                <img "images/random/random13.png" alt="Product 1" style="height:101px">
+                                                <img src="images/random/random13.png" alt="Product 1" style="height:101px">
                                             </a>
                                         </div>
                                     </div>

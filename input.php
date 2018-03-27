@@ -17,7 +17,7 @@
         {
             printf("Connect failed: %s\n", mysqli_connect_error());
         }
-        $sql = "INSERT INTO login VALUES ('$email','$name','$pass')";
+        $sql = "INSERT INTO login VALUES ('$email','$name',sha1('$pass'))";
         if(mysqli_query($conn,$sql))
         {
             $_SESSION["ERROR"]="none";
