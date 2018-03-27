@@ -20,9 +20,14 @@
     <script type="text/javascript" src="js/custom.js"></script>
     <link rel="icon" href="images/logo.png">
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <style>
+        .container-fluid{
+            background-color: white;
+        }
+    </style>
 </head>
 
-<body class="parallax">
+<body>
     <div class="bg-white">
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white">
             <nav class="my-0 mr-md-auto">
