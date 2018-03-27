@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,12 +21,12 @@
             </div>
             
             <div class="form-label-group">
-                <input type="email" name="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" autocomplete="off">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" autocomplete="off">
                 <label for="inputEmail">Email address</label>
             </div>
             
             <div class="form-label-group">
-                <input type="password" name="pass" id="inputPassword" class="form-control" placeholder="Password" required=""  autocomplete="off">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required=""  autocomplete="off">
                 <label for="inputPassword">Password</label>
             </div>
             
