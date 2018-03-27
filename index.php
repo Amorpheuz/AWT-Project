@@ -14,41 +14,7 @@
     <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="css/custom.css">
-    <script type="text/javascript">
-        $(function () {
-            $('.main-carousel').flickity({
-                // options
-                cellAlign: 'left',
-                contain: true
-            });
-        });
-        $(function () {
-            $('.rater').barrating({
-                theme: 'fontawesome-stars',
-                readonly: true
-            });
-        });
-        $(document).ready(function(){
-            $(document).scroll(function(){
-                var height = $(window).scrollTop();
-                if (height>100) {
-                    $('#mainnav').addClass("fixed-top");
-                }
-                if(height<100){
-                    $('#mainnav').removeClass("fixed-top");
-                }
-                if(height>400){
-                    $('#topBtn').css("display","block");
-                }
-                if(height<400){
-                    $('#topBtn').css("display","none");
-                }
-            });
-            $("#topBtn").click(function(){
-                $(document).scrollTop(0);
-            });
-        });
-    </script>
+    <script type="text/javascript" src="js/custom.js"></script>
     <link rel="icon" href="images/logo.png">
 </head>
 
