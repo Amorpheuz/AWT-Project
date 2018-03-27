@@ -28,12 +28,23 @@
                 readonly: true
             });
         });
+        $(document).ready(function(){
+            $(document).scroll(function(){
+            var height = $(window).scrollTop();
+            if (height>100) {
+                $('#mainnav').addClass("fixed-top");
+            }
+            if(height<100){
+                $('#mainnav').removeClass("fixed-top");
+            }
+        });
+        });
     </script>
     <link rel="icon" href="images/logo.png">
 </head>
 
 <body class="parallax">
-    <nav id="top" class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--<nav id="top" class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand mb-0 h1" href="#">
             <img src="images/logo.png" height="30" class="d-inline-block align-top" alt=""> BuyM8
         </a>
@@ -70,7 +81,35 @@
                 <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
-    </nav>
+    </nav>-->
+    <div class="bg-white">
+        <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white">
+            <nav class="my-0 mr-md-auto">
+                <a class="navbar-brand" href="index.php">BuyM8</a>
+            </nav>
+            <nav class="my-2 my-md-0 mr-md-3">
+            </nav>
+                <a class="btn btn-outline-primary" href="#">Sign In</a>
+        </div>
+        <div class="d-flex justify-content-center">
+            <hr style="margin:0px; background-color: #2196f3; width: 95%">
+        </div>
+        <div id="mainnav" class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white border-bottom box-shadow">
+            <nav class="my-0 mr-md-auto">
+                <a class="p-2 text-dark" href="#">All Products</a>
+                <a class="p-2 text-dark" href="#">Today's Deals</a>
+                <a class="p-2 text-dark" href="#">BuyM8 Wallet</a>
+                <a class="p-2 text-dark" href="#">Sell</a>
+                <a class="p-2 text-dark" href="#">Customer Service</a>
+            </nav>
+            <nav class="my-2 my-md-0 mr-md-3">
+            </nav>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12" style="margin-bottom: 15px;">
