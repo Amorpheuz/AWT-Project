@@ -37,7 +37,7 @@
     <div class="bg-white">
         <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 bg-white">
             <nav class="my-0 mr-md-auto">
-                <a class="navbar-brand" href="index.php">BuyM8</a>
+                <a class="navbar-brand" href="index.php"><img src="images/logo.png" alt="logo" style="height: 50px;"> BuyM8</a>
             </nav>
             <nav class="my-2 my-md-0 mr-md-3">
             </nav>
