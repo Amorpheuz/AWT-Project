@@ -63,12 +63,11 @@
                 <a class="p-2 text-dark" href="#">Today's Deals</a>
                 <a class="p-2 text-dark" href="#">BuyM8 Wallet</a>
                 <a class="p-2 text-dark" href="#">Sell</a>
-                <a class="p-2 text-dark" href="#">Customer Service</a>
             </nav>
             <nav class="my-2 my-md-0 mr-md-3">
             </nav>
             <form class="form-inline">
-                <input style="border-radius:0.25rem 0rem 0rem 0.25rem" class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <input style="border-radius:0.25rem 0rem 0rem 0.25rem; width: 250px;" class="form-control" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-primary" style="border-radius:0rem 0.25rem 0.25rem 0rem" type="submit"><i class='fas fa-search'></i></button>
                 <?php
                     if(isset($_SESSION["name"]))
@@ -179,7 +178,7 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <a href="ProductPage.php">
-                                        <img src="images/random/random3.jpg" alt="Product 1" style="height:101px">
+                                        <img src="images/random/random18.png" alt="Product 1" style="height:101px">
                                     </a>
                                 </div>
                             </div>

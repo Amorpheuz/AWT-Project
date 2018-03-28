@@ -21,8 +21,8 @@ session_start();
     <div class="login-box">
         <form class="form-signin" _lpchecked="1" method="POST" action="signin.php">
             <div class="text-center mb-4">
-                <img class="mb-4" src="images/logo.png" alt="" height="150">
-                <h1 class="h3 mb-3 font-weight-normal">Log IN</h1>
+                <a href="index.php"><img class="mb-4" src="images/logo.png" alt="" height="150"></a>
+                <h1 class="h3 mb-3">Log IN</h1>
                 <?php
                     if(isset($_SESSION["ERROR"]))
                     {
@@ -68,7 +68,7 @@ session_start();
             <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
             
         </form>
-        <div class="text-center"><button class="btn btn-link" style ="color:white;" data-toggle="modal" data-target="#myModal">Create Account</button></div>
+        <div class="text-center"><button class="btn btn-link" data-toggle="modal" data-target="#myModal">Create Account</button></div>
         <p class="mt-5 mb-3 text-center">©BuyM8 2017-2018</p>
     </div>
     
@@ -80,6 +80,7 @@ session_start();
                 <!-- Modal content-->
                 <div class="modal-content">
                     <div class="modal-header">
+                        <img class="mb-4" src="images/logo.png" alt="" height="100"><h2 class="font-weight-normal"style="padding:30px 10px;">BuyM8</h2>
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
                         
                     </div>

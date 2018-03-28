@@ -96,14 +96,14 @@ html {
 /* Custom CSS*/
 .login-box{
     width: 450px; 
-    background-color: rgba(0, 0, 0, 0.5);
-    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
     border-radius: 10px;
 }
 @media only screen and (max-width: 576px){
     .carousel-cell{
-        width: 10%;
-        height: 100px;
+        width: 40%;
+        height: 170px;
     }
 }
 @media only screen and (min-height: 900px){
